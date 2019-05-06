@@ -138,10 +138,6 @@ sup {
    # Forms
    # ================================================================= */
 
-input {
-  border-radius: 0;
-}
-
 /* Apply cursor pointer to button elements */
 button,
 [type="button"],
@@ -220,11 +216,25 @@ select {
 }
 
 /* Remove the default button styling in all browsers */
+[type="color"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="search"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
 button,
-input,
 select,
 textarea {
   background-color: transparent;
+  border-radius: 0;
   border-style: none;
   color: inherit;
 }
