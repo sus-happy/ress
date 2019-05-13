@@ -178,6 +178,23 @@ textarea {
   font: inherit; /* Specify font inheritance of form elements */
 }
 
+[type="color"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="search"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"] {
+  line-height: normal; /* For IE11 Placeholder Issue */
+}
+
 optgroup {
   font-weight: bold; /* Restore the font weight unset by the previous rule. */
 }
